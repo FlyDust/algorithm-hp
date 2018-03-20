@@ -1,6 +1,7 @@
 #include "sort.h"
 
 //插入排序，从小到大排序
+//时间复杂度：O(n^2)
 void insertion_sort(int *a, int length)
 {
 	int i,j,tmp;
