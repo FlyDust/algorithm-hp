@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "sort.h"
 
 //归并排序（分治法）
