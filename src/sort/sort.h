@@ -18,4 +18,7 @@ void tail_recursive_quick_sort(int *a, int low, int high);	//尾递归
 //计数排序O(n+k)
 void counting_sort(int *a, int n, int k);
 
+//基数排序O(d(n+k))
+void radix_sort(int *a, int n, int d);
+
 #endif
