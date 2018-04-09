@@ -21,4 +21,7 @@ void counting_sort(int *a, int n, int k);
 //基数排序O(d(n+k))
 void radix_sort(int *a, int n, int d);
 
+//选择问题O(n),返回a中第i小的元素
+int randomized_select(int *a, int low, int high, int i);
+
 #endif
